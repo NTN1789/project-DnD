@@ -1,0 +1,42 @@
+.spell-card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 16px;
+    margin: 16px;
+    width: 300px;
+    background-color: #f9f9f9;
+   
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .spell-card h2 {
+    margin-top: 0;
+    font-size: 1.5em;
+  }
+  
+
+
+  @media (max-width: 768px) {
+    .spell-card {
+      width: 100%;
+      padding: 14px; 
+      margin: 12px; 
+    }
+  
+    .spell-card h2 {
+      font-size: 1.3em; 
+    }
+  }
+  
+
+  @media (max-width: 480px) {
+    .spell-card {
+      width: 100%; 
+      padding: 12px; 
+      margin: 8px; 
+    }
+  
+    .spell-card h2 {
+      font-size: 1.2em; /
+    }
+  }
